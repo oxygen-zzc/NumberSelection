@@ -1,7 +1,8 @@
-package com.example.number.domain;
+package com.example.numberselection.domain;
 
-public class NumberVO extends Number{
+public class ParkVO extends Park{
     private Integer pageNum;
+
     private Integer pageSize;
 
     public Integer getPageNum() {

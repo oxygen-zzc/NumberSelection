@@ -1,17 +1,16 @@
-package com.example.number.domain;
+package com.example.numberselection.domain;
+
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 
-import java.io.Serializable;
-
-@TableName("number")
-public class Number implements Serializable {
+@TableName("park")
+public class Park {
     @TableId(type = IdType.AUTO)
     private Long id;
 
-    private String number;
+    private String parkNumber;
 
     private Integer isSelected;
 
@@ -23,12 +22,12 @@ public class Number implements Serializable {
         this.id = id;
     }
 
-    public String getNumber() {
-        return number;
+    public String getParkNumber() {
+        return parkNumber;
     }
 
-    public void setNumber(String number) {
-        this.number = number;
+    public void setParkNumber(String parkNumber) {
+        this.parkNumber = parkNumber;
     }
 
     public Integer getIsSelected() {

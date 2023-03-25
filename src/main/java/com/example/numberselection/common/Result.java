@@ -1,4 +1,4 @@
-package com.example.number.common;
+package com.example.numberselection.common;
 
 public class Result {
     private Boolean success;
